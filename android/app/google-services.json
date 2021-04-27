@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559937388911",
+    "project_id": "cats-app-3337c",
+    "storage_bucket": "cats-app-3337c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559937388911:android:d5eac8802ca24746ee689a",
+        "android_client_info": {
+          "package_name": "com.doomhopes.catsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559937388911-dlua1m4g4huuhs4ficsoj0p67nigqdag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChZGPqtpQRYfuSk0Ss7QJ_ATZnhcoo408"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559937388911-dlua1m4g4huuhs4ficsoj0p67nigqdag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
