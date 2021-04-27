@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Cats app'),
         centerTitle: true,
       ),
-      body: Center(child: const Text('Bite my shiny metal ass!!!!')),
+      body: Center(child: const Text('Bite my furry cat ass!!!!')),
     );
   }
 }
