@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
           return Scaffold(
             appBar: AppBar(),
             body: Container(
-              child: Center(child: Text("Loading")),
+              child: Center(child: const Text("Loading")),
             ),
           );
         },
