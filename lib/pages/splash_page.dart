@@ -1,17 +1,8 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
-import 'home_page.dart';
-
-class SplashPage extends StatefulWidget {
-  @override
-  _SplashPageState createState() => _SplashPageState();
-}
-
-class _SplashPageState extends State<SplashPage> {
-  String _versionName = 'V1.0';
-  final splashDelay = 3;
+class SplashPage extends StatelessWidget {
+  final String _versionName = 'V1.0';
+  /*final splashDelay = 3;
 
   _loadWidget() async {
     var _duration = Duration(seconds: splashDelay);
@@ -27,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     _loadWidget();
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
