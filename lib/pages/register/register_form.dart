@@ -95,6 +95,7 @@ class _LoginFormState extends State<RegisterForm> {
                     ),
                     keyboardType: TextInputType.emailAddress,
                     autocorrect: false,
+                    autovalidate: true,
                     validator: (_) {
                       return !state.isEmailValid ? 'Invalid Email' : null;
                     },
@@ -106,6 +107,7 @@ class _LoginFormState extends State<RegisterForm> {
                       labelText: "Password",
                     ),
                     obscureText: true,
+                    autovalidate: true,
                     autocorrect: false,
                     validator: (_) {
                       return !state.isPasswordValid ? 'Invalid Password' : null;
