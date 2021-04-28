@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'authentication_page.dart';
+import 'login/login_page.dart';
 
 class SplashPage extends StatefulWidget {
   @override
