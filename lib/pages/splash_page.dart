@@ -27,7 +27,7 @@ class _SplashPageState extends State<SplashPage> {
 
   void navigationPage() {
     Navigator.pushReplacement(context,
-        MaterialPageRoute(builder: (BuildContext context) => AuthPage()));
+        MaterialPageRoute(builder: (BuildContext context) => LoginPage()));
   }
 
   @override
